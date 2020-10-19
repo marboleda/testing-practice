@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/marboleda/testing-practice#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
     "jest": "^26.5.3"
   }
 }
