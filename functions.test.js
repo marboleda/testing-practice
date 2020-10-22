@@ -1,5 +1,12 @@
-import { capitalizeString } from './functions';
+import { capitalizeString, reverseString } from './functions';
 
-test('lowercase word', () => {
+//capitalizeString tests
+test('capitalize lowercase word', () => {
     expect(capitalizeString('quick')).toBe('Quick');
-})
+});
+
+
+//reverseString tests
+test('reverse sentence', () => {
+    expect(reverseString('Hi, my name is')).toBe('si eman ym ,iH');
+});
